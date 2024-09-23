@@ -171,7 +171,7 @@ summary {
     background-color: #fff;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #ffb700;
+    background-color: #0065c7;
 }
 body,html {
     font-size: 16px;
@@ -287,7 +287,8 @@ ul>li:before {
 .big-paragraph {
     font-size: 2rem;
     line-height: 1.4;
-    font-weight: 500
+    font-weight: 500;
+    text-align: justify;
 }
 
 @media screen and (max-width: 960px) {
@@ -373,6 +374,7 @@ ul>li:before {
     background: linear-gradient(gold 50%, #ffb700);
     border-radius: 50%;
     margin: -45px -45px;
-    opacity: 0.5;
+    opacity: 0.65;
+    filter: blur(1.2px);
     transition: all 0.1s ease-in;
 }
